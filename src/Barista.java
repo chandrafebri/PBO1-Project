@@ -1,12 +1,12 @@
 public class Barista {
-        public String mesin;
-        public String grinder;
-        public String ketel;
-        public String steamer;
-        public String bijikopi;
-        public String susu;
-        public String air;
-        public String gula;
+        private String mesin;
+        private String grinder;
+        private String ketel;
+        private String steamer;
+        private String bijikopi;
+        private String susu;
+        private String air;
+        private String gula;
 
         public void grindBiji () {
             System.out.println("Menghancurkan biji kopi menjadi bubuk");
@@ -40,5 +40,69 @@ public class Barista {
             this.steamer = steamer;
             this.bijikopi = bijikopi;
             this.susu = susu;
+        }
+
+        public String getMesin() {
+            return mesin;
+        }
+
+        public void setMesin(String mesin) {
+            this.mesin = mesin;
+        }
+
+        public String getGrinder() {
+            return grinder;
+        }
+
+        public void setGrinder(String grinder) {
+            this.grinder = grinder;
+        }
+
+        public String getKetel() {
+            return ketel;
+        }
+
+        public void setKetel(String ketel) {
+            this.ketel = ketel;
+        }
+
+        public String getSteamer() {
+            return steamer;
+        }
+
+        public void setSteamer(String steamer) {
+            this.steamer = steamer;
+        }
+
+        public String getBijikopi() {
+            return bijikopi;
+        }
+
+        public void setBijikopi(String bijikopi) {
+            this.bijikopi = bijikopi;
+        }
+
+        public String getSusu() {
+            return susu;
+        }
+
+        public void setSusu(String susu) {
+            this.susu = susu;
+        }
+
+        public String getAir() {
+            return air;
+        }
+
+        public void setAir(String air) {
+            this.air = air;
+        }
+
+        public String getGula() {
+            return gula;
+        }
+
+        public void setGula(String gula) {
+            this.gula = gula;
         }
 }
