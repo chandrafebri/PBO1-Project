@@ -33,4 +33,14 @@ public class Makelatte extends Barista {
     public void setTaro(String taro) {
         this.taro = taro;
     }
+
+    @Override
+    public void makeEspresso() {
+        super.makeEspresso();
+    }
+
+    @Override
+    public void makeKopisusu() {
+        super.makeKopisusu();
+    }
 }
