@@ -21,24 +21,24 @@ public class Barista {
             System.out.println("Kopi Susu sudah siap");
         }
 
-    public Barista() {
-    }
+        public Barista() {
+        }
 
-    public Barista(String mesin, String grinder, String ketel, String steamer, String bijikopi, String susu, String air, String gula) {
-        this.mesin = mesin;
-        this.grinder = grinder;
-        this.ketel = ketel;
-        this.steamer = steamer;
-        this.bijikopi = bijikopi;
-        this.susu = susu;
-        this.air = air;
-        this.gula = gula;
-    }
+        public Barista(String mesin, String grinder, String ketel, String steamer, String bijikopi, String susu, String air, String gula) {
+            this.mesin = mesin;
+            this.grinder = grinder;
+            this.ketel = ketel;
+            this.steamer = steamer;
+            this.bijikopi = bijikopi;
+            this.susu = susu;
+            this.air = air;
+            this.gula = gula;
+        }
 
-    public Barista(String grinder, String steamer, String bijikopi, String susu) {
-        this.grinder = grinder;
-        this.steamer = steamer;
-        this.bijikopi = bijikopi;
-        this.susu = susu;
-    }
+        public Barista(String grinder, String steamer, String bijikopi, String susu) {
+            this.grinder = grinder;
+            this.steamer = steamer;
+            this.bijikopi = bijikopi;
+            this.susu = susu;
+        }
 }
