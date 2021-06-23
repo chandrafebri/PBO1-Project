@@ -43,4 +43,9 @@ public class Makelatte extends Barista {
     public void makeKopisusu() {
         super.makeKopisusu();
     }
+
+    @Override
+    public void steamSusu() {
+        super.steamSusu();
+    }
 }
